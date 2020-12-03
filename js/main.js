@@ -40,7 +40,6 @@ import MiniApp from "./modules/TheMiniApp.js";
             },
 
             showProfData(target) {
-                debugger;
                 // remove this prof from the professors array
                 console.log('click to view car data ', target, target.name);
                 // the "this" keyword inside a vue instance REFERS to the vue instance itself by default

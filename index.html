@@ -9,7 +9,7 @@
 </head>
 <body>
     <main id="app">
-        <header>
+       
             
             <nav>
                 <ul id="main-nav">
@@ -21,13 +21,13 @@
                     <li><a href="#">PRE-OWNED</a></li>
                 </ul>
             </nav>
-        </header>
-        <main id="app">
-            <h1 @click="clickHeader">{{ message }}</h1>
+     
+
+            <h1 class="title" @click="clickHeader">{{ message }}</h1>
             <!-- show the prof data in collection -->
             <ul>
                 <!-- this is a custom Vue component defined in main.js-->
-                <div class="container">
+                <div class="minis">
                 <li v-for="prof, index in professors" class="imgContainer">
                     <img :src="'images/' + prof.image" :alt='prof.name + " image"' class="remove-prof" @click.prevent="showProfData(prof)" :class="{'prof-button-modifier' : removeAformat}" href="" @showmydata="showProfData"> 
                 </li>
@@ -39,7 +39,7 @@
                 <h2>{{ currentProfData.price }}</h2>
                 <p>{{ currentProfData.description }}</p>
             </section>
-        </main>
+
     </main>
         <script src="js/main.js" type="module"></script>
     </body>
