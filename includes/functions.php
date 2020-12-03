@@ -20,7 +20,7 @@
 
     function getSingleUser($conn, $id)
     {
-        $query = "SELECT * FROM tbl_favourite_things WHERE id=" . $id . "";
+        $query = "SELECT * FROM tbl_cars WHERE id=" . $id . "";
 
         $runQuery = $conn->query($query);
 
