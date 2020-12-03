@@ -1,0 +1,28 @@
+#main-nav {
+    width: 60%;
+    float: left;
+    display: flex;
+    font-family: 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+
+        li {
+            list-style-type: none;
+            text-align: center;
+            margin: 0 auto;
+            align-self: center;
+        }
+        a { 
+            color: #333;
+            text-decoration: none;
+            padding: 30px 16px;
+        }
+        a:hover {
+            background-color: rgb(238, 237, 237);
+            padding: 30px 16px;
+        }
+
+}
+
+img {
+    width: 15%;
+}
