@@ -6,7 +6,7 @@
 
     function getAllUsers($conn)
     {
-        $query = "SELECT * FROM ";
+        $query = "SELECT * FROM tbl_cars";
 
         $runQuery = $conn->query($query);
 
