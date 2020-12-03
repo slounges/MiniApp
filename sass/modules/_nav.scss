@@ -1,7 +1,8 @@
 #main-nav {
     width: 60%;
     float: left;
-    display: flex;
+    display: inline-flex;
+    flex: nowrap;
     font-family: 'Helvetica Neue', sans-serif;
     overflow: hidden;
 
@@ -23,6 +24,6 @@
 
 }
 
-img {
+.logo {
     width: 15%;
 }

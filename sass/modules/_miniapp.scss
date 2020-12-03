@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+}
+
+.minis{
+    margin: 0 auto;
+    padding: 180px;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+
+        img{
+            width: 50%;
+        }
+        img:hover {
+            cursor: pointer;
+            opacity:5;
+        }
+}
+
+.bio-data{
+    display: block;
+    text-align: center;
+}
