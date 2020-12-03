@@ -41,9 +41,9 @@ CREATE TABLE `tbl_cars` (
 --
 
 INSERT INTO `tbl_cars` (`id`, `name`, `image`, `thumb`, `description`, `video`, `price`) VALUES
-(1, 'Mini 3 Door Cooper', 'mini3.jpg', 'mini3_thumb.png', 'The original icon that started it all, delivering pure motoring fun in a feisty, fuel-efficient package.', 'm3.mp4', '$26,456'),
-(2, 'Mini 5 Door Cooper', 'mini5.jpg', 'mini5_thumb.png', 'The iconic MINI hatch with 2 extra doors and a little more space for passengers and cargo.', 'm5.mp4', '$27,756'),
-(3, 'Mini Countryman Cooper SE ALL4', 'country.jpg', 'minic_thumb.png', 'The adventurer, featuring a rugged ALL4 All-Wheel Drive system and our most spacious interior ever.', 'mc.mp4', '$47,956');
+(1, 'Mini 3 Door Cooper', 'mini3.png', 'mini3_thumb.png', 'The original icon that started it all, delivering pure motoring fun in a feisty, fuel-efficient package.', 'm3.mp4', '$26,456'),
+(2, 'Mini 5 Door Cooper', 'mini5.png', 'mini5_thumb.png', 'The iconic MINI hatch with 2 extra doors and a little more space for passengers and cargo.', 'm5.mp4', '$27,756'),
+(3, 'Mini Countryman Cooper SE ALL4', 'country.png', 'minic_thumb.png', 'The adventurer, featuring a rugged ALL4 All-Wheel Drive system and our most spacious interior ever.', 'mc.mp4', '$47,956');
 
 --
 -- Indexes for dumped tables

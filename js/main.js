@@ -1,4 +1,4 @@
-import {fetchData} from "./components/DataMiner.js";
+import {fetchData} from "./components/TheDataMiner.js";
 
 (() => {
     let vue_vm = new Vue({
