@@ -1,0 +1,17 @@
+[Mini App]
+Written Plan
+
+
+- Using class file as a start, 
+	- create new database to display Mini Cooper models and info.
+
+- Add information from Mini Cooper site into database.
+	- images
+	- descriptions
+	-price
+
+- Connect to the database through php to fetch the data.
+
+- Use Vue to display the images and data on the page.
+
+- Use Javascript to create a function that will show and remove the information by clicking.
